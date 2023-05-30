@@ -1,0 +1,75 @@
+.convergence {
+    display:block;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url(../assets/convergenceBG.png);
+    background-repeat: no-repeat;
+    padding-top: 14em;
+    height: 150em;
+    padding-left: 6em;
+    align-items: center;
+}
+
+.convergence__corpo{
+    width: 34em;
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+}
+
+
+.convergence__imagem{
+    max-width:23em;
+    max-height:23em;
+    padding-left: 5.3em;
+}
+
+.convergence__main{
+    color: white;
+    font-family: var(--fonte-nav);
+}
+
+.titulo {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.texto {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #9DB2BF;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.svg {
+    background-color: #100F0F;
+    border: 0;
+    height: 24px;
+    width: 24px;
+    padding: 12px 12px 12px 12px;
+    border-radius: 50px;
+}
+
+.convergence__main-botao-texto {
+    background-color: red;
+    
+}
+
+.botao__disponivel{
+    margin-left: 8em; margin-top: 4em;
+    display: flex;
+    align-items: center;
+    background-color: #B33030;
+    width: 16em;
+    padding: 10px 13px 10px 13px;
+    border-radius: 25px;
+}
+
+.texto__disponivel {
+    color: white;
+    font-family: var(--fonte-nav);
+    font-weight: 500;
+    font-size: 2em;
+    padding-right: 10px;
+    padding-left: 10px;
+}

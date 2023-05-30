@@ -1,0 +1,77 @@
+.cabecalho {
+    display:flex;
+    align-items: center;
+    background-color: #100F0F;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+}
+
+.riot__logo {
+    max-width:170px;
+    max-height:200px;
+}
+
+.riot__logo-pequeuno {
+    max-width:30px;
+    max-height:50px;
+}
+
+.cabecalho__direcionamento {
+    margin-right: 56em;
+}
+
+.cabecalho__direcionamento-link {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: var(--fonte-nav);
+    padding: 8px 15px 8px 15px;
+    font-size: 12.5px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.cabecalho__login{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.cabecalho__login-search{
+    margin: 2em;
+    background: #362222;
+    border: 0 ;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 0.7em;
+    margin-left: 2em;
+}
+
+.cabecalho__login-search::placeholder{
+    font-family: var(--fonte-nav);
+    padding: 1.2em;
+}
+
+.cabecalho__login-entrar{
+    font-family: var(--fonte-nav);
+    background-color: #B33030;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    width: 130px;
+    letter-spacing: 1px;
+}
+
+.cabecalho__direcionamento-link:hover {
+    background-color: #321E1E;
+    border: none;
+    border-radius: 10px;
+    height: 5px;
+}
+
+
+
+
+
