@@ -1,0 +1,142 @@
+.novidades{
+    background: #100F0F;
+    height: 60em;
+    padding: 0 100px 0 120px;
+}
+
+.novidades__main{
+    display: flex;
+    align-items: center;
+}
+
+.novidade__cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 7em 0 5em 0;
+}
+
+.novidade__cabecalho-titulo{
+    color: white;
+    font-family: var(--fonte-nav);
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.novidade__cabecalho-botao{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: var(--fonte-nav);
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1.6px;
+    background-color: #321E1E;
+    padding: 10px 13px 9px 13px;
+    height: 15px;
+    border-radius: 5px;
+}
+
+.novidades__atualizacao{
+    background-image: url(/assets/atualizacao.png);
+    background-repeat: no-repeat;
+    background-size: 90em;
+    height: 34em;
+    width: 73em;
+    border-radius: 8px;
+    margin-right: 30px ;
+}
+
+.novidades__texto{
+    color: white;
+    font-family: var(--fonte-nav);
+    font-weight:700;
+    font-size: 2em;
+    display: block;
+    padding: 420px 0 10px 30px;
+}
+
+.novidade__noticias{
+    color: #4F4557;
+    font-size: 0.5em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    margin-bottom: 10px ;
+}
+
+.novidades__atualizacao:hover {
+    border: 3px solid gray;
+}
+
+.novidades__box{
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 0.8em;
+    background-color: #181818;
+    height: 125px;
+    width: 37em;
+    color: white;
+    font-family: var(--fonte-nav);
+    font-weight: 700;
+    font-size: 18px;
+    align-items: center;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+
+.prime{
+    margin: 0;
+}
+
+.noticia-box{
+    font-size: 0.8em;
+}
+
+.presente__img{
+    background-image: url(/assets/discord-aniversario.jpg);
+    margin-left: 1em;
+    width: 250px;
+    height: 125px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 220px;
+}
+
+.relatorio__img{
+    background-image: url(/assets/valorant-relatorio.png);
+    margin-left: 1em;
+    width: 250px;
+    height: 125px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 220px;
+}
+
+.mageseeker__img{
+    background-image: url(/assets/sylas-mageseeker.png);
+    margin-left: 1em;
+    width: 250px;
+    height: 125px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 220px;
+}
+
+.prime__img{
+    background-image: url(/assets/games-prime.png);
+    margin-left: 1em;
+    width: 250px;
+    height: 125px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 220px;
+}
+
+
+.novidades__box-texto-main {
+    width: 24em;
+}
+
+.novidades__box:hover {
+    border: 3px solid gray ;
+}

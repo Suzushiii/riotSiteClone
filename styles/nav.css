@@ -4,7 +4,8 @@
     background-color: #100F0F;
     position: fixed;
     width: 100%;
-    height: 80px;
+    height: 95px;
+    justify-content: end;
 }
 
 .riot__logo {
@@ -13,13 +14,10 @@
 }
 
 .riot__logo-pequeuno {
-    max-width:30px;
-    max-height:50px;
+    margin-right: 50px ;
 }
 
-.cabecalho__direcionamento {
-    margin-right: 56em;
-}
+
 
 .cabecalho__direcionamento-link {
     text-decoration: none;
@@ -28,33 +26,36 @@
     font-family: var(--fonte-nav);
     padding: 8px 15px 8px 15px;
     font-size: 12.5px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-weight: 500;
 }
 
 .cabecalho__login{
     display: flex;
     align-items: center;
+    margin-right: 3em;
+    margin-left: 45em;
 }
 
 
 
 .cabecalho__login-search{
     margin: 2em;
-    background: #362222;
+    background: #1f1f1f;
     border: 0 ;
     border-radius: 30px;
     padding: 10px;
-    margin: 0.7em;
-    margin-left: 2em;
+    margin: 0;
 }
 
 .cabecalho__login-search::placeholder{
     font-family: var(--fonte-nav);
-    padding: 1.2em;
+    padding-left: 1.2em;
 }
 
 .cabecalho__login-entrar{
+    text-decoration: none;
+    color: black;
     font-family: var(--fonte-nav);
     background-color: #B33030;
     padding: 10px;
@@ -62,6 +63,9 @@
     border-radius: 30px;
     width: 130px;
     letter-spacing: 1px;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 500 ;
 }
 
 .cabecalho__direcionamento-link:hover {
@@ -70,6 +74,15 @@
     border-radius: 10px;
     height: 5px;
 }
+
+.buscar {
+    display: flex;
+    align-items: center;
+    margin: 0.7em;
+    margin-left: 2em;
+}
+
+
 
 
 

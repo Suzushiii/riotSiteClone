@@ -9,27 +9,31 @@
 </head>
 <body>
     <nav class="cabecalho">
-        <div class="cabecalho__logos">
-            <a href="#"><img src="assets/riotBranco.png" class="riot__logo"></a>
-            <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="riot__logo-pequeuno">
-                <circle cx="16" cy="16" r="16" fill="#f1f5f1"></circle>
-                <polygon points="16.42 8 6.75 12.47 9.16 21.64 11 21.41 10.49 15.65 11.1 15.38 12.13 21.27 15.27 20.89 14.71 14.53 15.3 14.27 16.45 20.75 19.62 20.36 19.01 13.38 19.61 13.12 20.86 20.2 24 19.82 24 9.89 16.42 8" fill="#050505"></polygon><polygon points="16.65 21.9 16.81 22.8 24 24 24 21 16.66 21.9 16.65 21.9" fill="#050505"></polygon>
-            </svg>-->
-        </div>
-
-        <div class="cabecalho__direcionamento">
-            <a href="#" class="cabecalho__direcionamento-link">QUEM SOMOS</a>
-            <a href="#" class="cabecalho__direcionamento-link">TRABALHE CONOSCO</a>
-            <a href="#" class="cabecalho__direcionamento-link">NOTÍCIAS</a>
-        </div>
+            <div class="cabecalho__logos">
+                <a href="#"><img src="assets/riotBranco.png" class="riot__logo"></a>
+            </div>
+            <a href="#">
+                <svg width="29" height="29" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="riot__logo-pequeuno">
+                    <circle cx="16" cy="16" r="16" fill="#f1f5f1"></circle>
+                    <polygon points="16.42 8 6.75 12.47 9.16 21.64 11 21.41 10.49 15.65 11.1 15.38 12.13 21.27 15.27 20.89 14.71 14.53 15.3 14.27 16.45 20.75 19.62 20.36 19.01 13.38 19.61 13.12 20.86 20.2 24 19.82 24 9.89 16.42 8" fill="#050505"></polygon><polygon points="16.65 21.9 16.81 22.8 24 24 24 21 16.66 21.9 16.65 21.9" fill="#050505"></polygon>
+                </svg>
+            </a>
+            <div class="cabecalho__direcionamento">
+                <a href="#" class="cabecalho__direcionamento-link">QUEM SOMOS</a>
+                <a href="#" class="cabecalho__direcionamento-link">TRABALHE CONOSCO</a>
+                <a href="#" class="cabecalho__direcionamento-link">NOTÍCIAS</a>
+            </div>
  
         <div class="cabecalho__login">
-            <svg width="14" height="14" viewBox="0 0 16 16" class="cabecalho__login-svg">
-                <path d="M7.992 0C3.576 0 0 3.584 0 8s3.576 8 7.992 8C12.416 16 16 12.416 16 8s-3.584-8-8.008-8zm5.544 4.8h-2.36c-.256-1-.624-1.96-1.104-2.848A6.424 6.424 0 0113.536 4.8zM8 1.632A11.27 11.27 0 019.528 4.8H6.472A11.27 11.27 0 018 1.632zM1.808 9.6A6.594 6.594 0 011.6 8c0-.552.08-1.088.208-1.6h2.704A13.212 13.212 0 004.4 8c0 .544.048 1.072.112 1.6H1.808zm.656 1.6h2.36c.256 1 .624 1.96 1.104 2.848A6.39 6.39 0 012.464 11.2zm2.36-6.4h-2.36a6.39 6.39 0 013.464-2.848A12.52 12.52 0 004.824 4.8zM8 14.368A11.27 11.27 0 016.472 11.2h3.056A11.27 11.27 0 018 14.368zM9.872 9.6H6.128A11.77 11.77 0 016 8c0-.544.056-1.08.128-1.6h3.744C9.944 6.92 10 7.456 10 8s-.056 1.072-.128 1.6zm.2 4.448a12.52 12.52 0 001.104-2.848h2.36a6.424 6.424 0 01-3.464 2.848zM11.488 9.6c.064-.528.112-1.056.112-1.6s-.048-1.072-.112-1.6h2.704c.128.512.208 1.048.208 1.6s-.08 1.088-.208 1.6h-2.704z" fill="#E8E8E8"></path>
-            </svg>       
-            <input type="text" placeholder="BUSCAR" class="cabecalho__login-search"> 
-            
-            <button class="cabecalho__login-entrar">FAZER LOGIN</button>
+            <a href="#">
+                <svg width="16" height="16" viewBox="0 0 16 16" class="cabecalho__login-svg">
+                    <path d="M7.992 0C3.576 0 0 3.584 0 8s3.576 8 7.992 8C12.416 16 16 12.416 16 8s-3.584-8-8.008-8zm5.544 4.8h-2.36c-.256-1-.624-1.96-1.104-2.848A6.424 6.424 0 0113.536 4.8zM8 1.632A11.27 11.27 0 019.528 4.8H6.472A11.27 11.27 0 018 1.632zM1.808 9.6A6.594 6.594 0 011.6 8c0-.552.08-1.088.208-1.6h2.704A13.212 13.212 0 004.4 8c0 .544.048 1.072.112 1.6H1.808zm.656 1.6h2.36c.256 1 .624 1.96 1.104 2.848A6.39 6.39 0 012.464 11.2zm2.36-6.4h-2.36a6.39 6.39 0 013.464-2.848A12.52 12.52 0 004.824 4.8zM8 14.368A11.27 11.27 0 016.472 11.2h3.056A11.27 11.27 0 018 14.368zM9.872 9.6H6.128A11.77 11.77 0 016 8c0-.544.056-1.08.128-1.6h3.744C9.944 6.92 10 7.456 10 8s-.056 1.072-.128 1.6zm.2 4.448a12.52 12.52 0 001.104-2.848h2.36a6.424 6.424 0 01-3.464 2.848zM11.488 9.6c.064-.528.112-1.056.112-1.6s-.048-1.072-.112-1.6h2.704c.128.512.208 1.048.208 1.6s-.08 1.088-.208 1.6h-2.704z" fill="#E8E8E8"></path>
+                </svg>    
+            </a>   
+            <div class="buscar">
+                <input type="text" placeholder="BUSCAR" class="cabecalho__login-search">                          
+            </div>
+            <a href="#"class="cabecalho__login-entrar">FAZER LOGIN</a>
         </div>
     </nav>
     <main>
@@ -52,7 +56,124 @@
                 </span>
             </section>
         </div>
-        
+        <div class="novidades">
+            <div class="novidade__cabecalho">
+                <h2 class="novidade__cabecalho-titulo">Novidades</h2>
+                <a href="#" class="novidade__cabecalho-botao"><span>Ver Tudo</span></a>
+            </div>
+            <div class="novidades__main">
+                <div class="novidades__atualizacao">
+                    <div class="novidades__texto">
+                        <h3>Atualização em segundo plano chegando ao Cliente Riot</h3>
+                        <div class="novidade__noticias">NOTÍCIAS</div>
+                    </div>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#" class="novidades__box presente">
+                            <div class="novidades__box-texto">
+                                <h3 class="novidades__box-texto-main">Presente de aniversário do Discord: novos emotes</h3>
+                                <div class="novidade__noticias noticia-box">NOTÍCIAS</div>
+                            </div>                           
+                            <div class="novidades__box-img presente__img"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="novidades__box relatorio">
+                            <div class="novidades__box-texto">
+                                <h3 class="novidades__box-texto-main">Relatório anual de impacto de 2022</h3>
+                                <div class="novidade__noticias noticia-box">NOTÍCIAS</div>
+                            </div>
+                            <div class="novidades__box-img relatorio__img"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="novidades__box mageseeker">
+                            <div class="novidades__box-texto"> 
+                                <h3 class="novidades__box-texto-main">The Mageseeker - Já disponível</h3>
+                                <div class="novidade__noticias noticia-box">NOTÍCIAS</div>
+                            </div>
+                            <div class="novidades__box-img mageseeker__img"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="novidades__box prime">
+                            <div class="novidades__box-texto">
+                                <h3 class="novidades__box-texto-main">Reprise Prime Gaming e Riot Games</h3>
+                                <div class="novidade__noticias noticia-box">NOTÍCIAS</div>
+                            </div>
+                            <div class="novidades__box-img prime__img"></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="nossos-jogos">
+            <div class="nossos-jogos__main">
+                <div class="nossos-jogos__titulo">
+                    <h2>Nossos Jogos</h2>
+                </div>
+                <div class="lista">
+                    <div class="lista-cards">
+                        <div class="nossos-jogos-cards__lista-lol">
+                            <div>
+                                <img src="/assets/LeagueOfLegends.png" alt="LeagueOfLegends"  class="logoLol">
+                            </div>
+                        </div>
+                         <div class="nossos-jogos-cards__lista-val">
+                            <div>
+                                <img src="/assets/Valorant.png" alt="Valorant"  class="logoVal">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lista">
+                    <div class="lista-cards-2">
+                        <div class="nossos-jogos-cards__lista-tft">
+                            <div>
+                                <img src="assets/tftLogo.png" alt="TFT"  class="logoTft">
+                            </div>
+                        </div>
+                         <div class="nossos-jogos-cards__lista-wr">
+                            <div>
+                                <img src="assets/wrLogo.png" alt="WildRift"  class="logoWr">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lista">
+                    <div class="lista-cards-3">
+                        <div class="nossos-jogos-cards__lista-lor">
+                            <div>
+                                <img src="assets/logoLor.png" alt="LegendsOfRuneterra"  class="logoLor">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="esports">
+            <h2 class="esports__titulo">Esports</h2>
+            <div class="lista-esports">
+                <div class="lista-esports-lol">
+                    <img src="assets/lolEsportsLogo.png" alt="LOL ESPORTS" class="logo-esports-lol">
+                </div>
+                <div class="lista-esports-val">
+                    <img src="assets/valEsportsLogo.png" alt="VAL ESPORTS" class="logo-esports-val">
+                </div>
+            </div>
+        </div>
+        <div class="entretenimento">
+            <h2 class="entretenimento__titulo">Entretenimento</h2>
+            <div class="lista-entretenimento">
+                <div class="lista-entretenimento-arcane">
+                    <img src="assets/arcaneLogo.png" alt="ARCANE" class="logo-arcane">
+                </div>
+                <div class="lista-entretenimento-music">
+                    <img src="assets/musicLogo.png" alt="RIOT GAMES MUSIC" class="logo-riot-music">
+                </div>
+            </div>
+        </div>
 
     </main>
 </body>

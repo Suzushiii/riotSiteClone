@@ -1,0 +1,56 @@
+.esports {
+    background-color: #1f1f1f;
+    padding: 100px 80px 0 100px;
+}
+
+.esports__titulo{
+    color: white;
+    font-family: var(--fonte-nav);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+
+.lista-esports{
+    display: flex;
+    justify-content: space-between;
+    height: 28em;
+}
+
+.lista-esports-lol {
+    background-image: url(/assets/lolEsports.png);
+    background-repeat: no-repeat;
+    background-size: 60em;
+    border-radius: 10px;
+    height: 425px;
+    width: 830px;
+}
+
+.lista-esports-val {
+    background-image: url(/assets/valEsports.png);
+    background-repeat: no-repeat;
+    background-size: 60em;
+    border-radius: 10px;
+    height: 425px;
+    width: 830px;
+}
+
+.logo-esports-lol {
+    width: 200px;
+    height: 150px;
+    margin: 8em 0 0 70px;
+}
+
+.logo-esports-val {
+    width: 200px;
+    height: 150px;
+    margin: 7em 0 0 70px;
+}
+
+.lista-esports-lol:hover {
+    border: 4px solid gray;
+}
+
+.lista-esports-val:hover {
+    border: 4px solid gray;
+}

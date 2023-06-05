@@ -2,10 +2,12 @@
     display:block;
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url(../assets/convergenceBG.png);
     background-repeat: no-repeat;
+
     padding-top: 14em;
-    height: 150em;
     padding-left: 6em;
     align-items: center;
+    height: 38em;
+
 }
 
 .convergence__corpo{
