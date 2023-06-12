@@ -1,7 +1,7 @@
 .cabecalho {
     display:flex;
     align-items: center;
-    background-color: #100F0F;
+    background-color: none;
     position: fixed;
     width: 100%;
     height: 95px;
@@ -41,8 +41,8 @@
 
 .cabecalho__login-search{
     margin: 2em;
-    background: #1f1f1f;
-    border: 0 ;
+    background: none;
+    border: 1.5px solid white;
     border-radius: 30px;
     padding: 10px;
     margin: 0;
@@ -51,6 +51,7 @@
 .cabecalho__login-search::placeholder{
     font-family: var(--fonte-nav);
     padding-left: 1.2em;
+    color: white;
 }
 
 .cabecalho__login-entrar{
@@ -69,7 +70,7 @@
 }
 
 .cabecalho__direcionamento-link:hover {
-    background-color: #321E1E;
+    background-color: #1f1f1f;
     border: none;
     border-radius: 10px;
     height: 5px;
@@ -80,6 +81,24 @@
     align-items: center;
     margin: 0.7em;
     margin-left: 2em;
+}
+
+header.rolagem {
+    background-color: #100F0F
+
+}
+
+header.rolagem .cabecalho__login-search{
+    background-color:#1f1f1f;
+    border: 0;
+}
+
+header.rolagem .cabecalho__login-search::placeholder{
+    color: gray;
+}
+
+header.rolagem .cabecalho__direcionamento-link:hover{
+    background-color:#321E1E;
 }
 
 
