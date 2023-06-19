@@ -6,6 +6,7 @@
     width: 100%;
     height: 95px;
     justify-content: end;
+    justify-content: space-between;
 }
 
 .riot__logo {
@@ -34,7 +35,7 @@
     display: flex;
     align-items: center;
     margin-right: 3em;
-    margin-left: 45em;
+    /*margin-left: 45em;*/
 }
 
 
@@ -100,6 +101,12 @@ header.rolagem .cabecalho__login-search::placeholder{
 header.rolagem .cabecalho__direcionamento-link:hover{
     background-color:#321E1E;
 }
+
+.cabecalho__direita{
+    display: flex;
+    align-items: center;
+}
+
 
 
 
